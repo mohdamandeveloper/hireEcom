@@ -1,0 +1,23 @@
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body, html, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a, a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
+:root{
+    --color-primary: #4747EA;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-green: #26B5A1;
+    --color-orange: #EF5D30;
+}
